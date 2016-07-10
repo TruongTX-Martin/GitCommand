@@ -24,4 +24,7 @@ in that respository
 	git log
 /checkout from branch
 	git checkout master
+/undoes a committed snapshot	
+	git revert <commit>
+
 	
