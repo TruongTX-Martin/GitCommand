@@ -1,0 +1,27 @@
+//create a .git subdirectory in the project root
+	- git init
+//create a .git in the directory
+	- git init <namedirectory>	
+//The --base flag creates a repository that doesn't have working directory,making it imposible to edit and commit
+in that respository
+	- git init --base <directory>
+//copy an exitsting Git respository,it like svn checkout 
+	- git clone <repo> <directory>
+//Config your git installation
+	- git config 
+	git config user.name
+	--global : make it global and you can use it everywhere
+//view state of the working directory 
+	- git status
+//add chang working directoy 
+	git add <file>
+	git add directory
+//state all change in directory in the next commit
+	git add -p
+//commit the staged snapshot 
+	git commit -m <"message">
+//dislay commited snapshots
+	git log
+/checkout from branch
+	git checkout master
+	
